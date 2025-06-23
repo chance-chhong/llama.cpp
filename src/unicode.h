@@ -30,7 +30,7 @@ struct unicode_cpt_flags {
     uint16_t is_whitespace  : 1;  // regex: \s
     uint16_t is_lowercase   : 1;
     uint16_t is_uppercase   : 1;
-    uint16_t is_nfd         : 1; //a
+    uint16_t is_nfd         : 1; 
 
     // decode from uint16
     inline unicode_cpt_flags(const uint16_t flags = 0) {
